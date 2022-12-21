@@ -50,7 +50,7 @@ A aplicação é composta de 3 telas.
 </p>
 
 2 - A tela abixo permite realizar consultas pela identificação do sensor (ID), pela data de início da leitura, data final da leitura, por algum valor específico, em litros (L), das medições inseridas no banco de dados e pelo status de ativação do sensor.
-.
+
 <p align="center">
   <img src="https://github.com/renanegobbi/MntVazaoWebApi/blob/main/Github/Dados.PNG">
 </p>

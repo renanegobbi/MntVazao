@@ -11,6 +11,14 @@ Uma aplicação Web API desenvolvida em ASP.NET Core 3.1 para visualizar por gr�
   <a href="#Licença">Licença</a>
 </h4>
 
+<br/>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+  </a>
+</p>
+
 # Tecnologias e ferramentas
 
 O projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
@@ -20,14 +28,6 @@ O projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 - [Chart.Js](#Pré-requisitos)
 - [DataTables](#Pré-requisitos)
 - [Swagger](#Pré-requisitos)
-
-<br/>
-
-<p align="center">
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
-  </a>
-</p>
 
 # Sobre o projeto
 

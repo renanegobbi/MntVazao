@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Dados";
+}
+
+@section Javascript
+{
+    <script src="~/js/Views/home-dados.js"></script>
+}
+
+<div class="hero-unit">
+    <h2 class="mt-2 mb-4 p-2 titulo-secao">Painel de controle - Dados</h2>
+</div>
+
+<div class="card mb-3">
+    <div class="card-header" id="iCardHeader">
+        FILTRO
+    </div>
+    <div class="row p-3">
+        <div class="col-sm-12 col-md-2">
+            <div class="form-group">
+                <label class="control-label">Sensor ID</label>
+                <input type="number" class="form-control" placeholder="" min="0" id="iProcurarSensorId">
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-3 form-group datapicker" style="z-index: 19001;">
+            <label class="control-label">Data Início</label>
+            <div class="input-group date" data-provide="datepicker">
+                <input type="text" class="form-control datepicker campo-data" id="iProcurarMedicaoDataInicio">
+                <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-3 form-group datapicker" style="z-index: 19001;">
+            <label class="control-label">Data Fim</label>
+            <div class="input-group date" data-provide="datepicker">
+                <input type="text" class="form-control campo-data" id="iProcurarMedicaoDataFim">
+                <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-th"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-2">
+            <div class="form-group">
+                <label class="control-label">Leitura</label>
+                <input type="text" class="form-control" placeholder="" id="iProcurarMedicaoLeitura">
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-2">
+            <div class="form-group">
+                <label class="control-label">Status</label>
+                <select id="iProcurarMedicaoStatus" name="iProcurarDocImpDeb" class="form-control" style="width:100%;">
+                    <option value="" selected>Todos</option>
+                    <option value="0">0 - Ativo</option>
+                    <option value="1">1 - Inativo</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer mb-3 ml-3" style="border-radius: 0;">
+        <button type="submit" class="btn btn-sm" id="btn-filtrar">
+            <i class="fa fa-search mr-xs"></i>  Filtrar
+        </button>
+    </div>
+</div>
+
+<table id="tblDados" class="display table table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>Sensor ID</th>
+            <th>Data Início</th>
+            <th>Data Fim</th>
+            <th>Leitura</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+</table>
+
+<div class="mt-5"></div>

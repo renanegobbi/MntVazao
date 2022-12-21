@@ -1,0 +1,39 @@
+﻿.swagger-ui .topbar {
+    background: #344e6b;
+}
+
+    .swagger-ui .topbar a {
+        flex: none;
+    }
+
+.swagger-ui img {
+    border-radius: 3px;
+}
+
+#swagger-ui > section > div.swagger-ui > div:nth-child(2) > div.information-container.wrapper > section > div > div > hgroup > pre {
+    display: none;
+}
+
+#swagger-ui > section > div.swagger-ui > div:nth-child(2) > div.information-container.wrapper > section > div > div > hgroup > a > span {
+    display: none;
+}
+
+#leftArrow {
+    background-color: rgba(52,78,107);
+    color: white;
+    width: 50px;
+    height: 30px;
+}
+
+#btnHome {
+    font-size: 16px;
+    height: 30px;
+    padding: 7px;
+}
+
+.swagger-ui button {
+    background-color: rgba(52,78,107);
+    cursor: pointer;
+    outline: none;
+    padding: 1px 6px 1px 1px;
+}

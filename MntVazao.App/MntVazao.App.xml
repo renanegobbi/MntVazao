@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MntVazao.App</name>
+    </assembly>
+    <members>
+        <member name="M:MntVazao.App.Controllers.v1.MedicaoController.ListaDeMedicoes(MntVazao.App.Models.API.MedicaoFiltro,MntVazao.App.Models.API.MedicaoOrdem,MntVazao.App.Models.API.MedicaoPaginacao)">
+            <summary>
+                Obtém as medições baseadas nos parâmetros de consulta.
+            </summary>
+            <param name="filtro"></param>
+            <param name="ordem"></param>
+            <param name="paginacao"></param>
+        </member>
+        <member name="M:MntVazao.App.Controllers.v1.OrganizacaoController.ObterPorId(System.String)">
+            <summary>
+                Obtém as organizações baseadas nos parâmetros de consulta.
+            </summary>
+            <param name="organizacao_id"></param>
+        </member>
+        <member name="M:MntVazao.App.Controllers.v1.SensorController.ListaDeMedicoes(System.String)">
+            <summary>
+                Obtém os sensores baseadas nos parâmetros de consulta.
+            </summary>
+            <param name="sensor_id"></param>
+        </member>
+        <member name="T:MntVazao.App.Herlpers.DatatablesHelper">
+            <summary>
+            Classe para extração dos parâmetros utilizados pelo componente Datatables.net
+            </summary>
+        </member>
+        <member name="T:MntVazao.App.Results.DatatablesResult">
+            <summary>
+            ActionResults que alimentarão componentes Datatables.net
+            </summary>
+        </member>
+        <member name="P:MntVazao.App.Swagger.Response.Total">
+            <summary>
+            Total de medições
+            </summary>
+        </member>
+        <member name="P:MntVazao.App.Swagger.Response.TotalPaginas">
+            <summary>
+            Total de páginas
+            </summary>
+        </member>
+        <member name="P:MntVazao.App.Swagger.Response.TamanhoPagina">
+            <summary>
+            Tamanho da página
+            </summary>
+        </member>
+        <member name="P:MntVazao.App.Swagger.Response.NumeroPagina">
+            <summary>
+            Número da páginas
+            </summary>
+        </member>
+        <member name="P:MntVazao.App.Swagger.Response.Resultado">
+            <summary>
+            Lista de medição
+            </summary>
+        </member>
+        <member name="P:MntVazao.App.Swagger.Response.Anterior">
+            <summary>
+            Página anterior
+            </summary>
+        </member>
+        <member name="P:MntVazao.App.Swagger.Response.Proximo">
+            <summary>
+            Próxima página
+            </summary>
+        </member>
+    </members>
+</doc>

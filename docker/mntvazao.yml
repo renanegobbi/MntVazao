@@ -1,0 +1,30 @@
+version: "3"
+
+networks:
+    frontend:
+        driver:
+            bridge
+
+services:
+
+    webapi-mntvazao:
+        image: renan123321/mntvazao:1.1
+        container_name: mntvazaocontainer
+        networks:
+            - frontend        
+        build: 
+            context: ../
+            dockerfile: ./Dockerfile
+        restart: always
+        #ports:
+        #    - "5300:36612"
+        #    - "5200:80"
+        #    - "5400:443"
+        ports:
+            - "80:80"
+            - "443:443"
+        #    - "5400:443"    
+        environment: 
+            - ASPNETCORE_ENVIRONMENT=Production
+            #- ASPNETCORE_URLS=http://*:5001
+            # - ASPNETCORE_URLS=https://+:443;http://+:80
